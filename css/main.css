@@ -1,7 +1,7 @@
 :root {
-  --preto:   rgb(88, 88, 90);
+  --preto:   rgb(17, 47, 70);
   --cinza:   rgb(231, 231, 233);
-  --amarelo: rgb(255, 202, 8);
+  --azul: rgb(0, 142, 146);
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   height: 256px;
   margin: 0 auto;
   border-radius: 50%;
-  border: 5px solid var(--amarelo);
+  border: 5px solid var(--azul);
   background: url(../img/avatar.png);
 }
 
@@ -23,7 +23,7 @@ body {
   color: var(--white);
   padding: 10px 0 10px 0;
   background-color: var(--preto);
-  border-bottom: 5px solid var(--amarelo);
+  border-bottom: 5px solid var(--azul);
 }
 
 h1 + h3 {
@@ -32,8 +32,8 @@ h1 + h3 {
 
 .cabecalho hr {
   height: 5px;
-  color: var(--amarelo);
-  background-color: var(--amarelo);
+  color: var(--azul);
+  background-color: var(--azul);
 }
 
 /*******  SIDEBAR  *******/
@@ -97,14 +97,14 @@ h1 + h3 {
 }
 
 .progress-bar {
-  background-color: var(--amarelo);
+  background-color: var(--azul);
 }
 
 .contato {
   font-weight: bold;
   text-align: center;
   color: var(--preto);
-  background-color: var(--amarelo);
+  background-color: var(--azul);
 }
 
 .contato label {
