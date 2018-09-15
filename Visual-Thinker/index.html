@@ -12,7 +12,6 @@
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Font Awesome JS -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -32,7 +31,9 @@
           <li class="nav-item">
             <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#login">Login</button>
           </li>
-          <li class="nav-item"><button type="button" class="btn btn-outline-secondary">Cadastrar</button></li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#cadastrar">Cadastrar</button>
+          </li>
         </ul>
       </div>
     </nav><!-- Fim Navbar -->
@@ -41,14 +42,13 @@
     <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position:absolute;right:10px;">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position:absolute;right:10px;z-index: 1;">
               <span aria-hidden="true">&times;</span>
             </button>
             <div class="row">
               <div class="col-md-6">
                   <img class="banner" src="img\banner.png" alt="">
               </div>
-
               <div class="col-md-6 ml-auto mr-auto branco">
                   <div class="ml-auto mr-auto modal-right">
                     <div class="text-center title-modal">
@@ -56,11 +56,10 @@
                     </div>
                     <form>
                       <label>EMAIL</label>
-                      <input class="form-control mb-2" type="text" />
+                      <input class="form-control mb-2" type="email" />
                       <label>SENHA</label>
                       <input class="form-control" type="password" /><br>
                       <div class="recuperar-senha"><a href="#" class="branco">Esqueci minha senha</a></div>
-
                       <div class="text-center">
                         <button class="btn btn-radius btn-branco-outline mb-2" type="submit">ENTRAR</button><br>
                         <button class="btn btn-radius btn-branco" type="submit">CADASTRE-SE</button>
@@ -69,13 +68,12 @@
                   </div>
                     <div class="child-footer branco">
                       <br>
-                      <hr class="hr-modal">
+                      <hr class="hr-modal mt-5">
                       <div class="row">
                         <div  class="col-8 icon-modal">
                           <a href="#"><i class="fa fa-info-circle"></i></a>
-                          &ensp; Fale Conosco &emsp; Equipe desenvolvedora
+                          &ensp; Fale Conosco &ensp; Equipe desenvolvedora
                         </div>
-
                         <div  class="col-4 text-right icon-modal">
                           <a href="#"><i class="fa fa-instagram"></i></a>
                           <a href="#"><i class="fa fa-facebook-square"></i></a>
@@ -88,9 +86,58 @@
             </div>
         </div>
       </div>
-    </div>
+    </div><!-- Fim Modal Login-->
 
     <!-- Modal Cadastro-->
+    <div class="modal fade" id="cadastrar" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position:absolute;right:10px;z-index: 1;">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="row">
+              <div class="col-md-6">
+                  <img class="banner" src="img\banner.png" alt="">
+              </div>
+              <div class="col-md-6 ml-auto mr-auto branco">
+                  <div class="ml-auto mr-auto modal-right">
+                    <div class="text-center title-modal">
+                      <span>CADASTRE-SE</span>
+                    </div>
+                    <form>
+                      <label>NOME</label>
+                      <input class="form-control" type="text" />
+                      <label>EMAIL</label>
+                      <input class="form-control" type="email" />
+                      <label>SENHA</label>
+                      <input class="form-control" type="password" />
+                      <label>CONFIRMAR SENHA</label>
+                      <input class="form-control" type="password" /><br>
+                      <div class="text-center">
+                        <button class="btn btn-radius btn-branco-outline mb-2" type="submit">CADASTAR</button><br>
+                      </div>
+                    </form>
+                  </div>
+                    <div class="child-footer branco">
+                      <hr class="hr-modal mt-4">
+                      <div class="row">
+                        <div  class="col-8 icon-modal">
+                          <a href="#"><i class="fa fa-info-circle"></i></a>
+                          &ensp; Fale Conosco &ensp; Equipe desenvolvedora
+                        </div>
+                        <div  class="col-4 text-right icon-modal">
+                          <a href="#"><i class="fa fa-instagram"></i></a>
+                          <a href="#"><i class="fa fa-facebook-square"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-github"></i></a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div><!-- Fim Modal Cadastro-->
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
