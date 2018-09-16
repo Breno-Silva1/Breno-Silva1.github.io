@@ -127,7 +127,8 @@ footer {
 #submenu a {
   border: 2px solid var(--vermelho);
   color: var(--vermelho);
-  height: 50px;
+  height: 55px;
+  width: 140px;
 }
 
 /* === 3. Fonts === */
@@ -186,6 +187,16 @@ footer {
   width: 80px;
 }
 
+.img-pv {
+    width: 140px;
+    vertical-align: inherit;
+}
+
+.img-pv:hover {
+   transform: scale(1.5);
+   transition: 0.5s all;
+}
+
 /* === 7. Outros === */
 
 .modal input {
@@ -195,4 +206,61 @@ footer {
 
 .shadow {
     box-shadow: 0 0.3rem 0.2rem rgba(0,0,0,0.15)!important;
+}
+
+.wrapper {
+  position: relative;
+  max-height: 50vh;
+  overflow: hidden;
+}
+
+.maxheight {
+  max-height: 100%;
+}
+
+.background::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(to bottom, transparent 0%, white 100%);
+}
+
+.first {
+  margin: 0px;
+  color: #444;
+  position: static;
+  padding: 1em 1em 0 1em;
+}
+
+.btn-read {
+  position: relative;
+  display: block;
+  width: 15%;
+  height: 50px;
+  border-radius: 40px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.2em 0;
+  font-size: 1em;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  background: var(--vermelho);
+  text-transform: uppercase;
+  transition: -webkit-transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
+}
+
+.btn-read:focus {
+  outline: none;
+}
+
+.btn-read:hover {
+  opacity: .9;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
