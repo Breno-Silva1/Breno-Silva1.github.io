@@ -95,14 +95,31 @@ footer {
   border: 2px solid var(--azul);
 }
 
-.bg-red-1 {
+.bg-layout {
   width: 260px;
   height: 520px;
-  background-image: url(../img/bg-red-1.png);
   position: absolute;
-  top: 300px;
   background-repeat: no-repeat;
   background-size: 60%;
+}
+
+.bg-red-1 {
+  background-image: url(../img/bg-red-1.png);
+  top: 300px;
+}
+
+.bg-red-2 {
+  background-image: url(../img/bg-red-2.png);
+  background-position-x: 100%;
+  left: 1048px;
+  top: 880px;
+  width: 300px !important;
+  height: 580px !important;
+}
+
+.bg-red-3 {
+  background-image: url(../img/bg-red-3.png);
+  top: 2190px;
 }
 
 /* === 2. Buttons === */
@@ -129,6 +146,11 @@ footer {
   color: var(--vermelho);
   height: 55px;
   width: 140px;
+}
+
+#submenu a:hover {
+  color: white !important;
+  background: var(--vermelho);
 }
 
 /* === 3. Fonts === */
@@ -195,6 +217,10 @@ footer {
 .img-pv:hover {
    transform: scale(1.5);
    transition: 0.5s all;
+}
+
+.be-ex {
+  width: 180px;
 }
 
 /* === 7. Outros === */
