@@ -111,10 +111,12 @@ footer {
 .bg-red-2 {
   background-image: url(../img/bg-red-2.png);
   background-position-x: 100%;
-  left: 1048px;
   top: 880px;
   width: 300px !important;
   height: 580px !important;
+  position: relative !important;
+  float: right;
+  z-index: 0;
 }
 
 .bg-red-3 {
@@ -223,6 +225,15 @@ footer {
   width: 180px;
 }
 
+/* === 6. Responsive === */
+@media only screen and (max-width: 1200px) {
+  .bg-layout {
+    display: none;
+  }
+}
+
+
+
 /* === 7. Outros === */
 
 .modal input {
@@ -251,7 +262,7 @@ footer {
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: linear-gradient(to bottom, transparent 0%, white 100%);
+  background-image: linear-gradient(to bottom, transparent 50%, white 100%);
 }
 
 .first {
