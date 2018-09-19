@@ -1,6 +1,6 @@
 $('.wrapper').removeClass('maxheight');
 
-$('button').click(function() {
+$('#btn-read-more').click(function() {
   $(this).animate({
     top: '-10px'
   }, 150, 'easeInOutCubic');
