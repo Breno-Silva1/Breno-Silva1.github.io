@@ -21,10 +21,10 @@ Table of contents
 }
 
 .branco { color: white !important; }
-.azul { color: var(--azul); }
-.azul-royal { color: var(--azul-royal); }
-.amarelo { color: var(--amarelo); }
-.vermelho { color: var(--vermelho); }
+.azul { color: var(--azul) !important; }
+.azul-royal { color: var(--azul-royal) !important; }
+.amarelo { color: var(--amarelo) !important; }
+.vermelho { color: var(--vermelho) !important; }
 
 .background-azul { background: var(--azul) }
 .background-azul-royal { background: var(--azul-royal) }
@@ -122,6 +122,17 @@ footer {
 .bg-red-3 {
   background-image: url(../img/bg-red-3.png);
   top: 2190px;
+}
+
+.bg-red-4 {
+  background-image: url(../img/bg-red-4.png);
+  background-position-x: 100%;
+  top: 2424px;
+  width: 310px !important;
+  height: 176px !important;
+  position: relative !important;
+  float: right;
+  z-index: 0;
 }
 
 /* === 2. Buttons === */
@@ -237,7 +248,16 @@ footer {
     display: none;
   }
 }
-
+@media only screen and (max-width: 500px) {
+  .img-pv {
+    width: 130px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .img-pv {
+    width: 90px;
+  }
+}
 
 /* === 7. Outros === */
 
