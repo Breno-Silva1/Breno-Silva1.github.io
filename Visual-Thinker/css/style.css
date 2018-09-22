@@ -135,6 +135,11 @@ footer {
   z-index: 0;
 }
 
+.header {
+  height: 77vh;
+  overflow: hidden;
+}
+
 /* === 2. Buttons === */
 .btn-radius {
   width: 120px;
@@ -152,6 +157,12 @@ footer {
   color: white;
   background: none;
   border-color: white;
+}
+
+.btn-azul-outline {
+  color: var(--azul);
+  background: none;
+  border-color: var(--azul);
 }
 
 #submenu a {

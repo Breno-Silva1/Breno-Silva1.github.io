@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/circulos.css">
     <!-- Font Awesome JS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body style="overflow: hidden;">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
       <a class="navbar-brand offset-2" href="index.html">
@@ -29,14 +30,68 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-5" style="margin-right:200px !important;">
           <li class="nav-item">
-            <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#login">Login</button>
+            <button type="button" class="btn btn-radius btn-azul-outline" data-toggle="modal" data-target="#login">Login</button>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#cadastrar">Cadastrar</button>
+            <button type="button" class="btn btn-radius btn-azul-outline" data-toggle="modal" data-target="#cadastrar">Cadastrar</button>
           </li>
         </ul>
       </div>
     </nav><!-- Fim Navbar -->
+
+    <!-- Header -->
+    <div class="header" style="">
+      <!--
+      <div class="c2 background-azul" style="top: -10px;left: -50px;"></div>
+      <div class="c2 background-azul" style="top: 200px;left: -30px;"></div>
+      <div class="c2 background-azul" style="left: 370px;top: 100px;"></div>
+      <div class="c4 background-azul" style="left: 240px;top: 120px;"></div>
+      <div class="c4 background-azul" style="left: 630px;top: 100px;"></div>
+      Azul Royal
+      <div class="c3 background-azul-royal" style="right: 550px;top: 50px;"></div>
+      <div class="c2 background-azul-royal" style="right: 300px;top: 60px;"></div>
+      <div class="c4 background-azul-royal" style="right: 90px;top: 125px;"></div>
+      <div class="c3 background-azul-royal" style="right: 20px;top: 200px;"></div>
+       Amarelo
+      <div class="c4 background-amarelo" style="top: 250px;left: 180px;"></div>
+      <div class="c4 background-amarelo" style="top: 350px;left: 30px;"></div>
+      <div class="c3 background-amarelo" style="top: 400px;left: 200px;"></div>
+      <div class="c4 background-amarelo" style="top: 250px;right: 180px;"></div>
+      <div class="c3 background-amarelo" style="top: 330px; right: -10px;"></div>
+      <div class="c3 background-amarelo" style="top: 430px;right: 100px;"></div>
+       Vermelho
+      <div class="c1 background-vermelho" style="bottom: -50px;left: -20px;"></div>
+      <div class="c2 background-vermelho" style="bottom: -30px;left: 450px;"></div>
+      <div class="c4 background-vermelho" style="bottom: 50px;left: 650px;"></div>
+      <div class="c1 background-vermelho" style="bottom: -125px;right: 345px;"></div>
+      <div class="c4 background-vermelho" style="bottom: 50px;right: 270px;"></div>
+      <div class="c3 background-vermelho" style="bottom: 50px;right: 20px;"></div>
+
+      <h1 class="text-center azul-royal" style="padding-top: 20%;">Desperte sua criatividade!</h1>
+      -->
+    </div>
+
+    <footer class="footer background-azul branco">
+      <div class="row" style="margin-right: 0!important;margin-left: 0!important;">
+          <div class="col-8">
+            <div class="row">
+              <div>
+                <a href="#"><i class="fa fa-info-circle branco"></i></a>
+                &ensp; Fale Conosco &ensp; Equipe desenvolvedora &ensp;
+              </div>
+              <div>
+                <a href="#"><i class="fa fa-instagram branco"></i></a>
+                <a href="#"><i class="fa fa-facebook-square branco"></i></a>
+                <a href="#"><i class="fa fa-twitter branco"></i></a>
+                <a href="#"><i class="fa fa-github branco"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 text-right">
+            <img class="img-footer" src="img/logo_white.png" alt="" / />
+          </div>
+      </div>
+    </footer>
 
     <!-- Modal Login-->
     <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
