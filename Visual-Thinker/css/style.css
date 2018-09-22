@@ -38,8 +38,15 @@ Table of contents
 .modal-footer { border: none !important; }
 
 .child-footer {
-  width: 90%;
   font-size: 10px;
+}
+
+.log-modal{
+  padding: 0px 130px 0px 130px;
+}
+
+.text-center {
+  padding-top: 15px;
 }
 
 .hr-modal {
@@ -58,6 +65,7 @@ Table of contents
   margin-top: -25px;
   margin-bottom: 20px;
   font-size: 10px;
+  padding-top: 5px;
 }
 
 a .recuperar-senha {
@@ -180,8 +188,9 @@ footer {
 /* === 3. Fonts === */
 
 .title-modal {
-  padding: 50px 0px 30px 0px;
+  padding: 50px 0px 60px 0px;
   font-weight: bold;
+
 }
 
 #cadastrar .title-modal {
