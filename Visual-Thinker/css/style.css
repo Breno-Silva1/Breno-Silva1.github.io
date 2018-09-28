@@ -80,6 +80,7 @@ a .recuperar-senha {
 
 section {
   padding: 25px;
+  margin-top: 50px;
 }
 
 footer {
@@ -148,6 +149,10 @@ footer {
   overflow: hidden;
 }
 
+#submenu .row {
+  padding-top: 10px;
+}
+
 /* === 2. Buttons === */
 .btn-radius {
   width: 120px;
@@ -171,6 +176,28 @@ footer {
   color: var(--azul);
   background: none;
   border-color: var(--azul);
+}
+
+.btn-ativado {
+  color: white !important;
+  background: var(--vermelho);
+}
+
+.btn-desativado {
+  color: #99a7c2 !important;
+  border-color: #99a7c2 !important;
+}
+
+.btn-icon {
+  background: var(--vermelho);
+  float: right;
+  width: 35px;
+  height: 35px;
+}
+
+.btn-icon i {
+  margin-left: -6px;
+  margin-top: -2px;
 }
 
 #submenu a {
@@ -220,6 +247,11 @@ footer {
 .titulo-projeto {
   font-size: 20px;
   font-weight: bold;
+}
+
+#submenu i {
+  font-size: 30px;
+  margin-top: -5px;
 }
 
 
