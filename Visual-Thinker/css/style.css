@@ -30,6 +30,7 @@ Table of contents
 .background-azul-royal { background: var(--azul-royal) }
 .background-amarelo { background: var(--amarelo) }
 .background-vermelho { background: var(--vermelho) }
+.background-branco { background: white !important; }
 
 /* === 1. Layout === */
 
@@ -193,6 +194,7 @@ footer {
   float: right;
   width: 35px;
   height: 35px;
+  cursor: pointer !important;
 }
 
 .btn-icon i {
@@ -322,16 +324,6 @@ footer {
     box-shadow: 0 0.3rem 0.2rem rgba(0,0,0,0.15)!important;
 }
 
-.wrapper {
-  position: relative;
-  max-height: 50vh;
-  overflow: hidden;
-}
-
-.maxheight {
-  max-height: 100%;
-}
-
 .background::after {
   content: '';
   height: 100%;
@@ -340,13 +332,6 @@ footer {
   top: 0px;
   left: 0px;
   background-image: linear-gradient(to bottom, transparent 50%, white 100%);
-}
-
-.first {
-  margin: 0px;
-  color: #444;
-  position: static;
-  padding: 1em 1em 0 1em;
 }
 
 .btn-read {
@@ -377,4 +362,33 @@ footer {
   opacity: .9;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+/* BTN-READ MORE*/
+
+#btn-hide1 { display: none !important; }
+#btn-hide2 { display: none !important; }
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  font-size: .9em;
 }
