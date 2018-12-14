@@ -1,5 +1,3 @@
-
-
 function hide() {
   document.getElementById("btn-show1").id = "btn-hide1";
   document.getElementById("btn-hide2").id = "btn-show2";
