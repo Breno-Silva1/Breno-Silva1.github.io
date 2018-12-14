@@ -1,0 +1,132 @@
+Info: DeliveryProcess:Business Design Thinking: 321 mini seconds publishing element
+Info: DeliveryProcess:Business Design Thinking: 854 mini seconds publishing process specific layout data
+Info: Phase:Empatia: 177 mini seconds publishing element
+Info: Activity:Briefing com Cliente: 297 mini seconds publishing element
+Info: Task:Esboçar Problema: 22 mini seconds publishing element
+Info: TaskDescriptor:Esboçar Problema: 2 mini seconds publishing element
+Info: Role:Gerente de Projetos: 69 mini seconds publishing element
+Info: RoleDescriptor:Gerente de Projetos: 6 mini seconds publishing element
+Info: Role:Stakeholders: 80 mini seconds publishing element
+Info: RoleDescriptor:Stakeholders: 7 mini seconds publishing element
+Info: Task:Esboçar Solução: 11 mini seconds publishing element
+Info: TaskDescriptor:Esboçar Solução: 3 mini seconds publishing element
+Info: Task:Esboçar Desejos: 14 mini seconds publishing element
+Info: TaskDescriptor:Esboçar Desejos: 3 mini seconds publishing element
+Info: Artifact:Anotações do Projeto: 25 mini seconds publishing element
+Info: WorkProductDescriptor:Anotações do Projeto: 4 mini seconds publishing element
+Info: Activity:Documentação de Resultados: 302 mini seconds publishing element
+Info: Task:Formalizar Briefing do Cliente: 18 mini seconds publishing element
+Info: TaskDescriptor:Formalizar Briefing do Cliente: 6 mini seconds publishing element
+Info: RoleDescriptor:Gerente de Projetos: 3 mini seconds publishing element
+Info: Role:Analista: 77 mini seconds publishing element
+Info: RoleDescriptor:Analista: 3 mini seconds publishing element
+Info: WorkProductDescriptor:Anotações do Projeto: 3 mini seconds publishing element
+Info: Artifact:Documento de Resultados do Briefing: 18 mini seconds publishing element
+Info: WorkProductDescriptor:Documento de Resultados do Briefing: 3 mini seconds publishing element
+Info: Activity:Elaborar Canvas do Projeto: 232 mini seconds publishing element
+Info: Task:Produzir Canvas Junto com o Cliente: 10 mini seconds publishing element
+Info: TaskDescriptor:Produzir Canvas Junto com o Cliente: 2 mini seconds publishing element
+Info: RoleDescriptor:Analista: 2 mini seconds publishing element
+Info: RoleDescriptor:Stakeholders: 2 mini seconds publishing element
+Info: RoleDescriptor:Gerente de Projetos: 1 mini seconds publishing element
+Info: Phase:Definição: 220 mini seconds publishing element
+Info: Activity:Documento de Visão Geral: 216 mini seconds publishing element
+Info: Task:Definir Escopo: 18 mini seconds publishing element
+Info: TaskDescriptor:Definir Escopo: 2 mini seconds publishing element
+Info: RoleDescriptor:Analista: 4 mini seconds publishing element
+Info: Task:Detalhar Requisitos: 8 mini seconds publishing element
+Info: TaskDescriptor:Detalhar Requisitos: 3 mini seconds publishing element
+Info: Task:Agrupar Requisitos em Casos de Usos: 8 mini seconds publishing element
+Info: TaskDescriptor:Agrupar Requisitos em Casos de Usos: 2 mini seconds publishing element
+Info: Task:Classificar Caso de Uso com Cliente: 8 mini seconds publishing element
+Info: TaskDescriptor:Classificar Caso de Uso com Cliente: 2 mini seconds publishing element
+Info: RoleDescriptor:Stakeholders: 3 mini seconds publishing element
+Info: Activity:Ambiente De Desenvolvimento: 251 mini seconds publishing element
+Info: Task:Avaliar Com Equipe Tecnologias a Serem Usadas: 8 mini seconds publishing element
+Info: TaskDescriptor:Avaliar Com Equipe Tecnologias a Serem Usadas: 3 mini seconds publishing element
+Info: Role:Desenvolvedores e Testadores: 76 mini seconds publishing element
+Info: RoleDescriptor:Desenvolvedores e Testadores: 4 mini seconds publishing element
+Info: Task:Definir Caso de Uso Básico do Sistema: 8 mini seconds publishing element
+Info: TaskDescriptor:Definir Caso de Uso Básico do Sistema: 2 mini seconds publishing element
+Info: RoleDescriptor:Analista: 2 mini seconds publishing element
+Info: Task:Validar Arquitetura com CDU Básico: 11 mini seconds publishing element
+Info: TaskDescriptor:Validar Arquitetura com CDU Básico: 2 mini seconds publishing element
+Info: Task:Avaliar Viabilidade da Arquitetura: 7 mini seconds publishing element
+Info: TaskDescriptor:Avaliar Viabilidade da Arquitetura: 2 mini seconds publishing element
+Info: Task:Definir Arquitetura de Desenvolvimento: 8 mini seconds publishing element
+Info: TaskDescriptor:Definir Arquitetura de Desenvolvimento: 2 mini seconds publishing element
+Info: Artifact:Documento de Ambiente: 10 mini seconds publishing element
+Info: WorkProductDescriptor:Documento de Ambiente: 3 mini seconds publishing element
+Info: Activity:Reuniões com o Cliente: 232 mini seconds publishing element
+Info: Task:Definir Cronograma De Reuniões: 28 mini seconds publishing element
+Info: TaskDescriptor:Definir Cronograma De Reuniões: 4 mini seconds publishing element
+Info: RoleDescriptor:Gerente de Projetos: 3 mini seconds publishing element
+Info: RoleDescriptor:Stakeholders: 3 mini seconds publishing element
+Info: RoleDescriptor:Analista: 3 mini seconds publishing element
+Info: Artifact:Cronograma de Reuniões: 10 mini seconds publishing element
+Info: WorkProductDescriptor:Cronograma de Reuniões: 5 mini seconds publishing element
+Info: Phase:Idealização: 160 mini seconds publishing element
+Info: Activity:Desenvolvimento Da Solução: 243 mini seconds publishing element
+Info: TaskDescriptor:Definir Cronograma De Reuniões: 6 mini seconds publishing element
+Info: RoleDescriptor:Gerente de Projetos: 3 mini seconds publishing element
+Info: RoleDescriptor:Stakeholders: 3 mini seconds publishing element
+Info: RoleDescriptor:Analista: 3 mini seconds publishing element
+Info: WorkProductDescriptor:Cronograma de Reuniões: 3 mini seconds publishing element
+Info: Phase:Prototipagem: 163 mini seconds publishing element
+Info: Activity:Prototipação Em Baixa E Média Fidelidade : 230 mini seconds publishing element
+Info: Task:Esboçar Protótipo Das Interfaces Em Baixa Fidelidade: 12 mini seconds publishing element
+Info: TaskDescriptor:Esboçar Protótipo Das Interfaces Em Baixa Fidelidade: 4 mini seconds publishing element
+Info: Role:Designer: 81 mini seconds publishing element
+Info: RoleDescriptor:Designer: 5 mini seconds publishing element
+Info: Task:Desenvolver Protótipo Das Interfaces Principais Em Média Fidelidade: 9 mini seconds publishing element
+Info: TaskDescriptor:Desenvolver Protótipo Das Interfaces Principais Em Média Fidelidade: 2 mini seconds publishing element
+Info: Task:Avaliar Protótipo Junto a Equipe de Desenvolvimento (Média Fidelidade): 11 mini seconds publishing element
+Info: TaskDescriptor:Avaliar Protótipo Junto a Equipe de Desenvolvimento (Média Fidelidade): 4 mini seconds publishing element
+Info: RoleDescriptor:Analista: 3 mini seconds publishing element
+Info: RoleDescriptor:Desenvolvedores e Testadores: 3 mini seconds publishing element
+Info: RoleDescriptor:Gerente de Projetos: 2 mini seconds publishing element
+Info: Task:Ajustar Mudanças No Protótipo: 9 mini seconds publishing element
+Info: TaskDescriptor:Ajustar Mudanças No Protótipo: 2 mini seconds publishing element
+Info: Activity:Prototipação Interativa E Em Alta Fidelidade: 240 mini seconds publishing element
+Info: Task:Desenvolver Protótipo Das Interfaces Em Alta Fidelidade: 11 mini seconds publishing element
+Info: TaskDescriptor:Desenvolver Protótipo Das Interfaces Em Alta Fidelidade: 2 mini seconds publishing element
+Info: RoleDescriptor:Designer: 6 mini seconds publishing element
+Info: Task:Avaliar Protótipo Junto a Equipe de Desenvolvimento (Alta Fidelidade): 9 mini seconds publishing element
+Info: TaskDescriptor:Avaliar Protótipo Junto a Equipe de Desenvolvimento (Alta Fidelidade): 3 mini seconds publishing element
+Info: RoleDescriptor:Analista: 3 mini seconds publishing element
+Info: RoleDescriptor:Desenvolvedores e Testadores: 2 mini seconds publishing element
+Info: RoleDescriptor:Gerente de Projetos: 2 mini seconds publishing element
+Info: Task:Desenvolver Protótipo das Interfaces de Forma Interativa: 9 mini seconds publishing element
+Info: TaskDescriptor:Desenvolver Protótipo das Interfaces de Forma Interativa: 2 mini seconds publishing element
+Info: Task:Avaliar Usabilidade do Protótipo Interativo Junto ao Cliente: 9 mini seconds publishing element
+Info: TaskDescriptor:Avaliar Usabilidade do Protótipo Interativo Junto ao Cliente: 2 mini seconds publishing element
+Info: RoleDescriptor:Stakeholders: 3 mini seconds publishing element
+Info: Activity:Desenvolvimento Das Interfaces Do Sistema: 161 mini seconds publishing element
+Info: Task:Criar Todas Interfaces Do Sistema: 8 mini seconds publishing element
+Info: TaskDescriptor:Criar Todas Interfaces Do Sistema: 3 mini seconds publishing element
+Info: RoleDescriptor:Designer: 4 mini seconds publishing element
+Info: Task:Acoplar Lógica Do Sistema As Interfaces: 10 mini seconds publishing element
+Info: TaskDescriptor:Acoplar Lógica Do Sistema As Interfaces: 2 mini seconds publishing element
+Info: RoleDescriptor:Desenvolvedores e Testadores: 2 mini seconds publishing element
+Info: Phase:Teste: 154 mini seconds publishing element
+Info: Activity:Plano De Teste: 191 mini seconds publishing element
+Info: Task:Definir Fluxos a Serem Seguidos: 20 mini seconds publishing element
+Info: TaskDescriptor:Definir Fluxos a Serem Seguidos: 2 mini seconds publishing element
+Info: RoleDescriptor:Desenvolvedores e Testadores: 2 mini seconds publishing element
+Info: Task:Indentificar e Concertar Possíveis Falhas: 8 mini seconds publishing element
+Info: TaskDescriptor:Indentificar e Concertar Possíveis Falhas: 2 mini seconds publishing element
+Info: Activity:Entrega Ao Cliente: 232 mini seconds publishing element
+Info: Task:Produzir Manual do Usuário: 8 mini seconds publishing element
+Info: TaskDescriptor:Produzir Manual do Usuário: 2 mini seconds publishing element
+Info: RoleDescriptor:Desenvolvedores e Testadores: 4 mini seconds publishing element
+Info: Task:Avaliar Desenvoltura do Cliente ao Utilizar o Software: 12 mini seconds publishing element
+Info: TaskDescriptor:Avaliar Desenvoltura do Cliente ao Utilizar o Software: 2 mini seconds publishing element
+Info: Task:Registrar Possíveis Falhas Para Concertar: 15 mini seconds publishing element
+Info: TaskDescriptor:Registrar Possíveis Falhas Para Concertar: 2 mini seconds publishing element
+Info: RoleDescriptor:Designer: 3 mini seconds publishing element
+Info: CustomCategory:publish: 11 mini seconds publishing element
+Info: Example:Modelo Canvas: 17 mini seconds publishing element
+Info: Template:Template Documento de Ambiente: 15 mini seconds publishing element
+Info: Discipline:Prototipagem Interativa e de Alta Fidelidade: 8 mini seconds publishing element
+Info: Discipline:Teste de Software: 24 mini seconds publishing element
+Info: : Publishing time: 0 minutes 7 seconds
