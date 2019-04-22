@@ -11,6 +11,10 @@
 	font-family: "Myriad Pro Regular";
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 body {
 	overflow-x: hidden;
 }
@@ -27,8 +31,54 @@ h1, h2, h3, h4, h5 {
 .bg-perto2 {background: var(--preto-2) !important;}
 .bg-preto3 {background: var(--preto-3) !important;}
 
+.rosa1 {color: var(--rosa-1) !important;}
+.rosa2 {color: var(--rosa-2) !important;}
+.rosa3 {color: var(--rosa-3) !important;}
+
+.preto1 {color: var(--preto-1) !important;}
+.perto2 {color: var(--preto-2) !important;}
+.preto3 {color: var(--preto-3) !important;}
+
+.header {
+	padding: 10px;
+}
+
 section {
 	padding: 100px !important;
+}
+
+.btn-radius {
+	border-radius: 50px;
+}
+
+.nav-item {
+	padding: 12px 60px;
+    color: white;
+}
+
+.nav-item:hover {
+    color: white;
+    background: var(--rosa-1);
+    transition: 1s all;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.nav-item.active {
+	color: var(--rosa-1);
+    background: var(--rosa-3);
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav-item {
+		padding: 12px 40px;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.nav-item {
+		padding: 12px 20px;
+	}
 }
 
 .circle {
@@ -40,8 +90,8 @@ section {
 }
 
 .circle-p {
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 	background: var(--rosa-1);
 	border-radius: 50%;
 	margin: 0 auto;
@@ -61,4 +111,12 @@ section {
 	height: 500px;
 	background-size: cover;
 	background-position-y: -20px;
+}
+
+.img-footer {
+	width: 50px;
+}
+
+.logo-header {
+	width: 300px;
 }
