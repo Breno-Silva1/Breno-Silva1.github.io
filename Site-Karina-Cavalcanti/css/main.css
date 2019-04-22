@@ -1,0 +1,64 @@
+:root {
+	--rosa-1: #BE5082;
+	--rosa-2: #FF96C8;
+	--rosa-3: #FFF0F0;
+	--preto-1: #323232;
+	--preto-2: #5A5A5A;
+	--preto-3: #B4B4B4;
+}
+
+* {
+	font-family: "Myriad Pro Regular";
+}
+
+body {
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Ampera";
+}
+
+.bg-rosa1 {background: var(--rosa-1) !important;}
+.bg-rosa2 {background: var(--rosa-2) !important;}
+.bg-rosa3 {background: var(--rosa-3) !important;}
+
+.bg-preto1 {background: var(--preto-1) !important;}
+.bg-perto2 {background: var(--preto-2) !important;}
+.bg-preto3 {background: var(--preto-3) !important;}
+
+section {
+	padding: 100px !important;
+}
+
+.circle {
+	width: 150px;
+	height: 150px;
+	background: var(--rosa-1);
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.circle-p {
+	width: 50px;
+	height: 50px;
+	background: var(--rosa-1);
+	border-radius: 50%;
+	margin: 0 auto;
+	float: right;
+}
+
+.bg-img-03 {
+	background-image: url("../img/img03.jpg");
+	height: 500px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -20px;
+}
+
+.bg-img-08 {
+	background-image: url("../img/img08.jpg");
+	height: 500px;
+	background-size: cover;
+	background-position-y: -20px;
+}
