@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5 {
 .bg-preto1 {background: var(--preto-1) !important;}
 .bg-perto2 {background: var(--preto-2) !important;}
 .bg-preto3 {background: var(--preto-3) !important;}
-.bg-branco {background: var(--preto-3) !important;}
+.bg-branco {background: #fff !important;}
 
 .rosa1 {color: var(--rosa-1) !important;}
 .rosa2 {color: var(--rosa-2) !important;}
@@ -50,8 +50,18 @@ section {
 	padding: 100px !important;
 }
 
+.w100 {
+	width: 100%;
+}
+
 .btn-radius {
 	border-radius: 50px;
+}
+
+.a-contato {
+	padding: 12px 50px;
+    border: 3px solid var(--rosa-2);
+    border-radius: 50px;
 }
 
 .nav-item {
@@ -102,6 +112,7 @@ section {
 }
 
 .py-20 {background-position-y: -20px;}
+.py-50 {background-position-y: -50px;}
 .px-100 {background-position-x: -100px;}
 .px-150 {background-position-x: -150px;}
 
@@ -109,6 +120,10 @@ section {
 	height: 500px;
 	background-size: cover;
     background-repeat: no-repeat;
+}
+
+.bg-01 {
+	background-image: url("../img/img01.jpg");
 }
 
 .bg-03 {
