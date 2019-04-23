@@ -26,15 +26,14 @@ h1, h2, h3, h4, h5 {
 .bg-rosa1 {background: var(--rosa-1) !important;}
 .bg-rosa2 {background: var(--rosa-2) !important;}
 .bg-rosa3 {background: var(--rosa-3) !important;}
-
 .bg-preto1 {background: var(--preto-1) !important;}
 .bg-perto2 {background: var(--preto-2) !important;}
 .bg-preto3 {background: var(--preto-3) !important;}
+.bg-branco {background: var(--preto-3) !important;}
 
 .rosa1 {color: var(--rosa-1) !important;}
 .rosa2 {color: var(--rosa-2) !important;}
 .rosa3 {color: var(--rosa-3) !important;}
-
 .preto1 {color: var(--preto-1) !important;}
 .perto2 {color: var(--preto-2) !important;}
 .preto3 {color: var(--preto-3) !important;}
@@ -44,6 +43,10 @@ h1, h2, h3, h4, h5 {
 }
 
 section {
+	padding: 100px !important;
+}
+
+.section {
 	padding: 100px !important;
 }
 
@@ -98,19 +101,30 @@ section {
 	float: right;
 }
 
-.bg-img-03 {
-	background-image: url("../img/img03.jpg");
+.py-20 {background-position-y: -20px;}
+.px-100 {background-position-x: -100px;}
+.px-150 {background-position-x: -150px;}
+
+.bg-img {
 	height: 500px;
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -20px;
 }
 
-.bg-img-08 {
+.bg-03 {
+	background-image: url("../img/img03.jpg");
+}
+
+.bg-04 {
+	background-image: url("../img/img04.jpg");
+}
+
+.bg-05 {
+	background-image: url("../img/img05.jpg");
+}
+
+.bg-08 {
 	background-image: url("../img/img08.jpg");
-	height: 500px;
-	background-size: cover;
-	background-position-y: -20px;
 }
 
 .img-footer {

@@ -37,10 +37,6 @@ $(document).ready(function() {
 				
 				// caso seja verdadeiro, ele vai adicionar a classe que está em animationClass ao elemento
 				$(this).addClass(animationClass);
-			} else {
-				
-				// caso seja falso ele vai remover a classe do elemento. Se você não quiser que a animação ocorra mais de uma vez, ou seja, quando o cliente voltar o scroll para cima os elementos continuem fixos, basta remover este else
-				$(this).removeClass(animationClass);
 			}
 		});
 	}
