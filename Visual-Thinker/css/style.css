@@ -20,6 +20,59 @@ Table of contents
   --vermelho: #DF0031;
 }
 
+/* Tooltip */
+.tooltip > .tooltip-inner {
+  background-color: white; 
+  border: 1px solid black; 
+}
+
+/* === PALETA === */
+.paleta {
+  height: 150px;
+}
+
+.paleta:hover {
+  border: 10px solid #0000002e;
+  transition: 0.3s all;
+}
+
+.paleta:hover, .paleta.active {
+  border: 10px solid #0000002e;
+  transition: 0.3s all;
+}
+
+
+.sub-paleta {
+  height: 75px;
+  transition: 0.2s all;
+}
+
+.btn-paleta {
+  margin: -10px 0px;
+  float: right;
+  cursor: pointer;
+  border-radius: .25rem;
+  box-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.btn-paleta button label {
+  cursor: pointer;
+}
+
+.line-2 {
+  line-height: 2;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* === FIM PALETA === */
+
 .branco { color: white !important; }
 .azul { color: var(--azul) !important; }
 .azul-royal { color: var(--azul-royal) !important; }
