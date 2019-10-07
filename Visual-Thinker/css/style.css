@@ -34,6 +34,7 @@ Table of contents
 .paleta:hover {
   border: 10px solid #0000002e;
   transition: 0.3s all;
+  cursor: pointer;
 }
 
 .paleta:hover, .paleta.active {
@@ -41,10 +42,10 @@ Table of contents
   transition: 0.3s all;
 }
 
-
 .sub-paleta {
   height: 75px;
   transition: 0.2s all;
+  cursor: pointer;
 }
 
 .btn-paleta {
@@ -55,21 +56,39 @@ Table of contents
   box-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.bold {
-  font-weight: bold !important;
-}
-
 .btn-paleta button label {
   cursor: pointer;
 }
 
-.line-2 {
-  line-height: 2;
+.info-copy:hover::after {
+  font-family: FontAwesome;
+  content: "\f24d";
 }
 
-.hidden {
-  display: none !important;
+.info-copy:hover {
+  border: 1px dotted black;
+  cursor: pointer;
 }
+
+#toast-copiar {
+  position: fixed;
+  width: 200px; 
+  height: 35px;
+  background: #8BC34A;
+  color: white;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  right: 10px;
+  top: 10px;
+}
+
+.bold { font-weight: bold !important; }
+
+.line-2 { line-height: 2; }
+
+.hidden { display: none !important; }
 
 /* === FIM PALETA === */
 

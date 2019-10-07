@@ -43,6 +43,10 @@ function setBackgroundSub(n) {
 }
 
 function clicksub(){
-    for(i = 0; i <= 4; i++) 
-      document.getElementsByClassName('sub-info')[i].className = "col-12 p-0 line-2 sub-info";  
+  for(i = 0; i <= 4; i++) 
+    document.getElementsByClassName('sub-info')[i].className = "col-12 p-0 line-2 sub-info";  
+}
+
+function copiar(){
+  setTimeout(function() { alert("Copiado! ✓"); }, 60);
 }
