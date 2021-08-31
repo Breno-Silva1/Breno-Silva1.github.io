@@ -225,7 +225,8 @@ section {
 
 @media (max-width: 768px) {
   .fl {
-		background-position: -10rem -8rem !important;
+		background-position: -22rem -1rem !important;
+		width: 350px !important;
 	}
 
 	.fr {
